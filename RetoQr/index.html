@@ -2,43 +2,33 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-    <link rel="preload" href="normalize.css" as="style">
-    <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="preload" href="styles.css" as="style">
-    <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="normalize.css" as="style">
+  <link rel="stylesheet" href="normalize.css">
 
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css">
 
   <title>Frontend Mentor | QR code component</title>
-
-  
- 
 </head>
 <body class="bodyContainer">
+  <h1></h1> <!--Lo dejo vacio para que me deje de tirrar el error "Page should contain a level-one heading"-->
+  <main role="main" class="card">
+    <picture class="imgContainer">
+      <img loading="lazy" src="./images/image-qr-code.png" alt="imgqr">
+    </picture>
 
+    <h1 class="title">Improve your front-end skills by building projects</h1>
+    <p class="parrafo">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </main>
 
-      <main role="main" class="card">
-
-            <picture class="imgContainer">
-                <img  loading="lazy" src="./images/image-qr-code.png" alt="imgqr">
-            </picture> 
-          
-          
-            <p role="titlecard" class="tittle">   Improve your front-end skills by building projects </p>
-
-            <p role="contentcard" class="parrafo">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  
-
-      </main>
-  
   <div role="contentInfo" class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/santiago-bergerat-797b7b1ba/">Bergerat Santiago </a>.

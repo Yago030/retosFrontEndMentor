@@ -19,7 +19,7 @@
 .bodyContainer{
   
   font-family: var(--font-family);
-  background-color: var(--grayish-blue);
+  background-color: var(--light-gray);
 
   display: flex;
 
@@ -41,11 +41,12 @@
   display: flex;
   flex-direction: column;
   background-color: var(--white);
-  height: 600px;
-  max-width: 390px;
+  height: 500px;
+  max-width: 290px;
   width: 100%;
-  padding: 20px;
+  padding:10px;
   margin: 20px;
+  padding-top:15px ;
 }
 
 .imgContainer {
@@ -56,7 +57,7 @@
 
 img{
   border-radius: 20px;
-  height:350px;
+  height:250px;
   margin-bottom: 20px;
  
 }
@@ -86,5 +87,9 @@ img{
 .attribution a { 
 
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 340px){
+    
 }
 

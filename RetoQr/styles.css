@@ -14,7 +14,9 @@
   padding: 0;
 }
 
-
+h1{
+  display: none;
+}
 
 .bodyContainer{
   
@@ -57,9 +59,9 @@
 
 img{
   border-radius: 20px;
-  height:250px;
+  width: 100%;
+  height: max-content; 
   margin-bottom: 20px;
- 
 }
 
 .tittle{

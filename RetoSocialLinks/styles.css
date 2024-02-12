@@ -72,7 +72,7 @@ h1{
     color: var(--white);
     padding:10px ;
     width: 300px;
-    background-color:var(--grey) ;
+    background-color:RED ;
     margin: 10px;
     border: none;
     font-weight: 700;

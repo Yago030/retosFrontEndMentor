@@ -17,7 +17,7 @@
 }
 
 body{
-    background-color: var(--darkgrey);
+    background-color: #141414;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,18 +32,22 @@ body{
     color: var(--white);
     width: auto;
     height: 100vh;
+    background-color: #141414;
+   
 
 }
 
 .card__content{
     margin-top: 60px;
     background-color: var(--grey);
+    background-color: #1F1F1F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 400px;
     height: 700px;
+    border-radius: 10px;
 
 }
 
@@ -70,13 +74,14 @@ h1{
 
 .buttonLink{
     color: var(--white);
-    padding:10px ;
+    padding:15px ;
     width: 300px;
-    background-color:RED ;
+    background-color:#333333;
     margin: 10px;
     border: none;
     font-weight: 700;
     font-size: 16px;
+    border-radius: 5px;
 }
 
 
@@ -92,10 +97,11 @@ h1{
  }
 
 
-@media only screen and (max-width: 375px) {
-    
-  }
-  
+@media (min-width: 768px){
+    .card__content{
+        max-width: 90%;
+    }
+}
 
   @media only screen and (min-width: 1440px) {
     /* Agrega tus estilos específicos para dispositivos de escritorio aquí */
